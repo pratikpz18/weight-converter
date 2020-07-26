@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<input type="number" list="Weight" placeholder="Enter Weight"  min=0 id="input" autocomplete="off">
+		<select id="weight" onchange="countryChange();">
+		<option value="empty">Unit</option>
+ 		<option value="Kg" id="Kg">Kg</option>
+  		<option value="Lbs" id="Lbs">Pound(Lb)</option>
+		</select>
+		<button type="button" id="kg" >Convert to Kg</button>
+		<button type="button" id="pound">Convert to Lb</button>
+		<input type="text" id="output" readonly="readonly">
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
